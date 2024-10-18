@@ -338,6 +338,6 @@ public with sharing class VariablesDataTypesOperators {
         
         Decimal totalCost = (pricePerUnit * numberOfUnits) * (1 + salesTaxRate);
 
-        return totalCost; // Replace null with the variable you used to store the result
+        return totalCost;  // Replace null with the variable you used to store the result
     }
 }
